@@ -97,7 +97,7 @@
 // 	}
 // }
 
-/////////////////////////////444444444444
+/////////////////////////////4444444444444444444444444444
 //sum od digit using recursion
 // package main
 
@@ -146,7 +146,31 @@
 
 //////////////////////////////////6666666666666666666
 
-////////////////////////7777777777777777777
+
+package main
+
+import "fmt"
+
+func main() {
+	// create the source array
+	source := []int{1, 2, 3, 4, 5}
+	// create a destination array with the same size as source
+	destination := make([]int, len(source))
+	// call the copyArray method to copy elements
+	copyArray(source, destination)
+	// print the contents of destination array
+	fmt.Println("Contents of destination array:")
+	fmt.Println(destination)
+}
+
+// copyArray method to copy elements from source to destination
+func copyArray(source []int, destination []int) {
+	for i := range source {
+		destination[i] = source[i]
+	}
+}
+
+////////////////////////7777777777777777777777
 
 // package main
 
@@ -181,7 +205,7 @@
 // 	}
 // }
 
-//////////////////888888888888888888888
+//////////////////8888888888888888888888
 
 // package main
 
@@ -268,7 +292,7 @@
 // 	fmt.Printf("Perimeter of rectangle: %.2f\n", r.perimeter())
 // }
 
-/////////////////////////999999999999999999999999
+/////////////////////////999999999999999999999999999999
 
 // package main
 
@@ -299,7 +323,7 @@
 // 	}
 // }
 
-////////////1010101010101010101010
+////////////10 10 10 10 10 10 10 10 10 10 10 
 
 // package main
 
@@ -349,7 +373,7 @@
 // 	}
 // }
 
-// //////12 12 12 12 12 12 12 12
+// /////////////12 12 12 12 12 12 12 12
 // package main
 
 // import "fmt"
@@ -370,7 +394,7 @@
 // 	fmt.Printf("After swapping: num1 = %d, num2 = %d\n", num1, num2)
 // }
 
-// ////13 13 13 13 13 13 13 13
+// //////////13 13 13 13 13 13 13 13
 // package main
 
 // import "fmt"
@@ -389,7 +413,7 @@
 // 	fmt.Printf("Sum of all odd numbers between 1 to 100 is %d\n", oddSum)
 // }
 
-///////////// 14 14 14 14 14 14 14
+////////////// 14 14 14 14 14 14 14
 
 // package main
 
